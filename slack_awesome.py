@@ -44,7 +44,7 @@ class Slack:
     def _api(self, method, payload):
         if not self.token:
             raise SystemExit("[Slack] SLACK_BOT_TOKEN not set for API call.")
-        url = f"https://hooks.slack.com/services/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XXXXXXXXXXXXXXXXXXXXX{method}"
+        url = f"XXXXXXXXXXXXXXXXXXXXXXXhttps://hooks.slack.com/services/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XXXXXXXXXXXXXXXXXXXXX{method}"
         headers = {
             "Authorization": f"Bearer {self.token}",
             "Content-Type": "application/json; charset=utf-8"

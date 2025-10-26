@@ -49,7 +49,7 @@ def send_slack_message(message):
     ]
   }
   response = requests.post(
-    "https://hooks.slack.com/services/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XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+    "XXXXXXXXXXXXXXXXXXhttps://hooks.slack.com/services/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XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
     # headers={"Authorization": "Bearer YOUR_SLACK_BOT_TOKEN"},
     json=payload
   )
